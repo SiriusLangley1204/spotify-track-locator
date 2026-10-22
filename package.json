@@ -1,0 +1,11 @@
+{
+  "name": "spotify-track-locator",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Spicetify extension to locate the currently playing track in the current list",
+  "scripts": {
+    "test": "node --test locate-playing-track.test.cjs browser-regression.test.cjs",
+    "check": "node --check locate-playing-track.js"
+  },
+  "engines": { "node": ">=18" }
+}
